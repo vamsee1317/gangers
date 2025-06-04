@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
+import ProductCards from './components/products/productCards'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Login />
       <Register />
+      <ProductCards />
     </>
   )
 }
